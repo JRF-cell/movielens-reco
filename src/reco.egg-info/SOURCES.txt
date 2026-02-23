@@ -1,9 +1,0 @@
-pyproject.toml
-src/reco/__init__.py
-src/reco/__main__.py
-src/reco/cli.py
-src/reco.egg-info/PKG-INFO
-src/reco.egg-info/SOURCES.txt
-src/reco.egg-info/dependency_links.txt
-src/reco.egg-info/top_level.txt
-tests/test_sanity.py

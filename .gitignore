@@ -14,3 +14,6 @@ data/
 # OS/Editor
 .DS_Store
 .vscode/
+
+# Packaging artifacts
+*.egg-info/
