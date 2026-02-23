@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data (ne pas versionner MovieLens)
+data/
+
+# OS/Editor
+.DS_Store
+.vscode/
