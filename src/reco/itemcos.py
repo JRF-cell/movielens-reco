@@ -88,7 +88,7 @@ def recommend_user(
         neigh_idx = model.neighbors_idx[idx, :req]
         neigh_sim = model.neighbors_sim[idx, :req]
 
-        for j, sim in zip(neigh_idx, neigh_sim):
+        for j, sim in zip(neigh_idx, neigh_sim, strict=True):
             cand_mid = int(model.item_ids[int(j)])
             if cand_mid == mid or cand_mid in seen:
                 continue
